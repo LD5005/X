@@ -1,0 +1,84 @@
+
+.diocane nav {font-family: 'Fira Sans', sans-serif;
+transform: translateX(30%);
+width: 60%;
+
+
+
+}
+
+.diocane nav li {display: inline-block;}
+nav li a{
+  position: relative;
+  top: 10px;
+  color: #330066;
+  padding: 20px;
+  display: block;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.hamburger{display:none; z-index: 3;}
+
+
+.diocane nav li .active{text-decoration: underline;}
+
+
+@media (max-width: 860px) {
+
+
+
+
+.diocane{position: absolute; top: 0; right: -100%; background: #000; height: 100vh; padding-top: 80px;}
+.diocane li{display: block;}
+.diocane li a{padding:15px 30px; font-size:20px; color:#FFFFF0 }
+
+#header {z-index: 1}
+
+
+#main {z-index: 0}
+
+
+
+.nav--open{right: 0%;}
+
+.active { text-decoration: underline ;background-color:#330066!important; color: #000;}
+
+
+.hamburger{
+  display:block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 40px;
+  right: 30px;
+}
+
+.hamburger span{background: #330066; height: 3px; width: 100%; display: block; margin-bottom: 3px;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -58,8 +58,6 @@ width: 60%;
 }
 
 nav li {display: inline-block;
-        position: relative;
-        left:10%;
         }
 nav li a{
   position: relative;
@@ -136,9 +134,6 @@ nav li .active{text-decoration: underline;}
 main {overflow: hidden !important}
 
 .hero_content h1 {color:#FFFFF0; z-index: 0 !important}
-
-
-
 
 section{
 
@@ -551,24 +546,31 @@ section{
 
 @media screen and (max-width: 360px){  
 
-  .hero_content h1 {position: relative;right: 7%; font-size: 55px; z-index: 0 !important; }
+  .hero_content h1 {position: relative;right: 7%; font-size: 55px; z-index: 0 !important; overflow: hidden }
 
 .freccia{ 
           visibility: hidden;
-          overflow:hidden;
-          width:70% !important;
           height: auto;
           position: absolute;
-          top: 37%;
+          top: 34%;
           left: 35%;
+          overflow: hidden
            }
 
-.freccia2{overflow:hidden;
+.freccia2{
           position: absolute;
-          top:37%;
+          top:34%;
           left: 35%;
-          visibility: visible !important;}           
-                                     
+          visibility: visible !important;
+          overflow: hidden}   
+
+
+              
+              
+
+
+
+
 }
 
 
@@ -632,7 +634,7 @@ footer{
                  left:45%;
                  bottom:;}
 
-.textfooter {font-family: 'Fira Sans', sans-serif;
+.textfooter p {font-family: 'Fira Sans', sans-serif;
                  color: #FFFFF0;
                  font-size: 15px;
                  }
@@ -776,7 +778,8 @@ flex-basis: 20%;
 border: 10px solid #330066;
 border-radius: 25px;
 padding: 20px;
-
+height: % !important;
+position: relative;
 }
 
 
@@ -801,13 +804,22 @@ top: 10%;}
        position: relative;
        left:10%;
        top:4%;
-       visibility: visible;}
+       visibility: visible;
+       z-index: 0;
+       background: linear-gradient(0deg, rgba(0,0,0,.2), rgba(0,0,0, 0.5))}
 
 .item_ciccio p{
 
   font-size: 20px;
   color: #FFFFF0;}
 
+
+.inarrivo{ position: absolute;
+           z-index: 1;
+           top: -4%;
+          left:56%;
+
+           }
 
 
 
@@ -857,7 +869,7 @@ top: 10%;}
   top:0%;}
 
 .hero3{
-  height: 220vh !important}
+  height: 150vh !important}
 
 
 .item{
@@ -880,7 +892,7 @@ padding: 3px !important;
   top:5% !important;}
 
 .hero3{
-  height: 290vh!important;}
+  height: 250vh!important;}
 }                 
 
 
@@ -1043,7 +1055,8 @@ top: 10%;}
        position: relative;
        left:10%;
        top:4%;
-       visibility: visible;}
+       visibility: visible;
+       }
 
 .item_ciccio p{
 
@@ -1115,7 +1128,7 @@ top: 10%;}
 #hero_content5{ position: relative;
                 bottom:15%;}                
 
-.hero3{  height: 180vh;}  
+.hero3{  height: 240vh !important;}  
 
 }
 
@@ -1138,7 +1151,7 @@ top: 10%;}
                 top: 20%;}
 
 .hero3{
-  height: 210vh;}
+  height: 340vh !important;}
 
 .hero_content3 {
   position: relative;
@@ -1185,7 +1198,7 @@ top: 10%;}
                 position: relative;
                 top: 0%;}
 
-.hero3{ height: 210vh;}
+.hero3{ height: 270vh !important;}
 
 .hero_content3 {
   position: relative;
@@ -1232,7 +1245,7 @@ top: 10%;}
                 position: relative;
                 top: 0%;}
 
-.hero3{ height: 180vh;}
+.hero3{ height: 250vh !important;}
 
 .hero_content3 {
   position: relative;
@@ -1357,8 +1370,198 @@ top: 10%;}
         overflow: hidden;
         z-index: 0}
 
+}
 
 
 
+/*! DOCUMENTAZIONE */
+
+.hero_doc{
+
+
+        
+        height: 400vh;
+        width: 100%;
+        background: #FFFFF0 ;
+        background-size: cover;
+        align-items: center;
+
+}
+
+
+.hero_cont_doc {
+
+color: #330066;
+position: relative;
+top: 20vh;
+
+}
+
+
+h3 {
+color: #330066;
+text-align: center;
+
+}
+
+
+
+
+h4{
+color: #330066;
+
+
+
+}
+
+
+
+
+
+
+h5{
+
+text-align: center;
+font-weight: bold ;
+font-size: 30px;
+color: #330066;
+padding: 30px;
+width: 100%;
+max-width: 1350px;
+margin: 0 auto;
+padding: 30px;
+
+
+
+}
+
+
+h6{
+
+  font-size: 30px;
+  color: #330066;
+  padding: 30px;
+  width: 100%;
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 30px;
+
+
+
+
+}
+
+
+
+
+
+
+.hero_cont_doc p {
+font-family: 'Fira Sans', sans-serif;
+color: #330066;
+padding: 30px;
+width: 100%;
+max-width: 1350px;
+margin: 0 auto;
+padding: 30px;
+
+
+
+}
+
+
+/*! BEBOP */
+
+
+
+.hero_bebop{
+
+
+      
+        height: 700vh;
+        width: 100%;
+        background: #FFFFF0 ;
+        background-size: cover;
+        align-items: center;
+
+   }     
+
+.hero_bebop p{
+
+
+font-family:'Fira Sans', sans-serif; ;
+color: #330066;
+font-size: 20px;
+
+}
+
+
+
+
+
+.hero_cont_bebop{
+  color: #330066;
+position: relative;
+top: 20vh;
+padding: 30px;
+
+
+
+}
+
+.hero_cont_bebop h1 {
+ color: #330066;
+ text-align: center;
+
+}
+        
+.hero_cont_bebop h2 {
+font-family:'Fira Sans', sans-serif;
+ color: #330066;
+
+}
+
+
+
+.descrizione{
+
+padding-top: 15px;
+}
+
+
+
+
+
+
+
+
+/* anni 20*/
+
+
+
+.hero_anni20{
+
+
+        
+        height: 100vh;
+        width: 100%;
+        background: #FFFFF0 ;
+        background-size: cover;
+        align-items: center;
+
+   }     
+
+
+.hero_cont_anni20{
+  color: #330066;
+position: relative;
+top: 20vh;
+
+
+}
+
+.hero_cont_anni20 h1 {
+ color: #330066;
+ text-align: center;
 
 }
