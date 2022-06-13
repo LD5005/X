@@ -15,7 +15,6 @@ nav li a{
   padding: 20px;
   display: block;
   font-size: 25px;
-  font-weight: bold;
 }
 
 .hamburger{display:none; z-index: 3;}
