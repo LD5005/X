@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, p{color: #000; padding-bottom: 30px;}
 
 .big-text{font-size:70px; font-weight: 900;}
 .med-text{font-size: 40px;}
-.normal-text{font-size: 20px;}
+.normal-text{font-size: 20px; }
 .small-text{font-size: 14px;}
 .intro-text{text-transform: uppercase; font-size: 20px; font-weight: bold;}
 
@@ -1379,11 +1379,17 @@ top: 10%;}
 
 /*! DOCUMENTAZIONE */
 
+
+
+#palettecolori{position: relative; left: 35%;}
+
+#grafica{position: relative; left: 20%;}
+
 .hero_doc{
 
 
         
-        height: 400vh;
+        height: 1000vh;
         width: 100%;
         background: #FFFFF0 ;
         background-size: cover;
@@ -1394,6 +1400,7 @@ top: 10%;}
 
 .hero_cont_doc {
 
+font-family: 'Fira Sans', sans-serif;
 color: #330066;
 position: relative;
 top: 20vh;
@@ -1401,28 +1408,30 @@ top: 20vh;
 }
 
 
-h3 {
+.hero_cont_doc h1 {
 color: #330066;
 text-align: center;
+font-family: 'Fira Sans', sans-serif;
+}
+
+
+.hero_cont_doc h2{
+
+  font-size: 30px;
+  color: #330066;
+  padding: 30px;
+  width: 100%;
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 30px;
+  font-family: 'Fira Sans', sans-serif; 
+
 
 }
 
 
 
-
-h4{
-color: #330066;
-
-
-
-}
-
-
-
-
-
-
-h5{
+.hero_cont_doc h3{
 
 text-align: center;
 font-weight: bold ;
@@ -1433,26 +1442,41 @@ width: 100%;
 max-width: 1350px;
 margin: 0 auto;
 padding: 30px;
-
+font-family: 'Fira Sans', sans-serif;
 
 
 }
 
-
-h6{
-
+.hero_cont_doc h4{
+  font-family: 'Fira Sans', sans-serif;
   font-size: 30px;
+  font-weight: bold;
+  color: red;
+  padding: 30px;
+  width: 100%;
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+
+
+.hero_cont_doc h5{
+  
+ 
+  font-weight: bold;
   color: #330066;
   padding: 30px;
   width: 100%;
   max-width: 1350px;
   margin: 0 auto;
   padding: 30px;
-
-
-
-
+  font-family: 'Fira Sans', sans-serif;
 }
+
+
+
+
 
 
 
@@ -1460,7 +1484,7 @@ h6{
 
 
 .hero_cont_doc p {
-font-family: 'Fira Sans', sans-serif;
+font-family: 'Source Serif Pro', serif;
 color: #330066;
 padding: 30px;
 width: 100%;
@@ -1481,7 +1505,7 @@ padding: 30px;
 
 
       
-        height: 700vh;
+        height: 1100vh;
         width: 100%;
         background: #FFFFF0 ;
         background-size: cover;
@@ -1492,7 +1516,7 @@ padding: 30px;
 .hero_bebop p{
 
 
-font-family:'Fira Sans', sans-serif; ;
+font-family: 'Source Serif Pro', serif ;
 color: #330066;
 font-size: 20px;
 
@@ -1534,6 +1558,15 @@ padding-top: 15px;
 
 
 
+/*.video_youtube2 {visibility: hidden}
+.video_youtube {}
+
+@media screen and (min-width: 1366px){
+
+  .video_youtube{visibility: hidden;}
+  .video_youtube2{visibility: visible; text-align: center;}*/
+
+
 
 
 
@@ -1546,7 +1579,7 @@ padding-top: 15px;
 
 
         
-        height: 100vh;
+        height: 1300vh;
         width: 100%;
         background: #FFFFF0 ;
         background-size: cover;
@@ -1555,10 +1588,14 @@ padding-top: 15px;
    }     
 
 
+
+
 .hero_cont_anni20{
   color: #330066;
 position: relative;
 top: 20vh;
+padding: 30px;
+
 
 
 }
@@ -1568,3 +1605,68 @@ top: 20vh;
  text-align: center;
 
 }
+        
+.hero_cont_anni20 h2 {
+font-family:'Fira Sans', sans-serif;
+ color: #330066;
+
+}
+
+
+
+.descrizione{
+
+padding-top: 15px;
+}
+
+
+
+.hero_anni20 p{
+
+
+font-family: 'Source Serif Pro', serif ;
+color: #330066;
+font-size: 20px;
+
+}
+
+
+@media screen and (min-width: 1366px){
+
+
+
+.hero_anni20{
+
+
+        
+        height: 700vh;
+        width: 100%;
+        background: #FFFFF0 ;
+        background-size: cover;
+        align-items: center;
+
+   }     
+
+
+.descrizione {width: 70%;
+              text-align: left;
+              }
+
+
+.hero_anni20 p{
+
+
+font-family: 'Source Serif Pro', serif ;
+color: #330066;
+font-size: 25px;
+
+}
+
+
+.hero_cont_anni20 h2 {
+font-family:'Fira Sans', sans-serif;
+ color: #330066;
+ clear: left;
+
+}
+
