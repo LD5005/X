@@ -1,5 +1,5 @@
 
-.diocane nav {font-family: 'Fira Sans', sans-serif;
+.navdoc nav {font-family: 'Fira Sans', sans-serif;
 transform: translateX(30%);
 width: 60%;
 
@@ -7,7 +7,7 @@ width: 60%;
 
 }
 
-.diocane nav li {display: inline-block;}
+.navdoc nav li {display: inline-block;}
 nav li a{
   position: relative;
   top: 10px;
@@ -20,7 +20,7 @@ nav li a{
 .hamburger{display:none; z-index: 3;}
 
 
-.diocane nav li .active{text-decoration: underline;}
+.navdoc nav li .active{text-decoration: underline;}
 
 
 @media (max-width: 860px) {
@@ -28,9 +28,9 @@ nav li a{
 
 
 
-.diocane{position: absolute; top: 0; right: -100%; background: #000; height: 100vh; padding-top: 80px;}
-.diocane li{display: block;}
-.diocane li a{padding:15px 30px; font-size:20px; color:#FFFFF0 }
+.navdoc{position: absolute; top: 0; right: -100%; background: #000; height: 100vh; padding-top: 80px;}
+.navdoc li{display: block;}
+.navdoc li a{padding:15px 30px; font-size:20px; color:#FFFFF0 }
 
 #header {z-index: 1}
 

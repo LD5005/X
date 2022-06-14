@@ -1391,7 +1391,7 @@ top: 10%;}
 
 
         
-        height: 1000vh;
+        height: 1380vh;
         width: 100%;
         background: #FFFFF0 ;
         background-size: cover;
@@ -1507,7 +1507,7 @@ padding: 30px;
 
 
       
-        height: 1100vh;
+        height: 1150vh;
         width: 100%;
         background: #FFFFF0 ;
         background-size: cover;
@@ -1642,7 +1642,7 @@ font-size: 20px;
 
         
         height: 700vh;
-        width: 100%;
+        width: 130%;
         background: #FFFFF0 ;
         background-size: cover;
         align-items: center;
@@ -1651,7 +1651,7 @@ font-size: 20px;
 
 
 .descrizione {width: 70%;
-              text-align: left;
+              text-align: justify;
               }
 
 
@@ -1671,4 +1671,3 @@ font-family:'Fira Sans', sans-serif;
  clear: left;
 
 }
-
