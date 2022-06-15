@@ -1498,6 +1498,10 @@ padding: 30px;
 
 }
 
+#insta {position: absolute;
+        left: 40%;}
+
+
 
 /*! BEBOP */
 
@@ -1521,7 +1525,7 @@ padding: 30px;
 font-family: 'Source Serif Pro', serif ;
 color: #330066;
 font-size: 20px;
-
+text-align: justify;
 }
 
 
@@ -1552,21 +1556,71 @@ font-family:'Fira Sans', sans-serif;
 
 
 
-.descrizione{
-
-padding-top: 15px;
-}
+.descrizione {padding-top: 15px;}
 
 
 
 
-/*.video_youtube2 {visibility: hidden}
-.video_youtube {}
+@media screen and (max-height: 495px){
 
-@media screen and (min-width: 1366px){
+.hero_bebop{
 
-  .video_youtube{visibility: hidden;}
-  .video_youtube2{visibility: visible; text-align: center;}*/
+
+      
+        height: 1650vh;
+        width: 100%;
+        background: #FFFFF0 ;
+        background-size: cover;
+        align-items: center;}
+
+   }     
+
+@media screen and (max-height: 430px){
+
+.hero_bebop{
+
+
+      
+        height: 1450vh;
+        width: 100%;
+        background: #FFFFF0 ;
+        background-size: cover;
+        align-items: center;}
+
+   }     
+
+
+@media screen and (max-height: 395px){
+
+.hero_bebop{
+
+
+      
+        height: 1700vh;
+        width: 100%;
+        background: #FFFFF0 ;
+        background-size: cover;
+        align-items: center;}
+
+   }     
+
+
+
+
+
+@media screen and (max-height: 346px){
+
+.hero_bebop{
+
+
+      
+        height: 1950vh;
+        width: 100%;
+        background: #FFFFF0 ;
+        background-size: cover;
+        align-items: center;}
+
+   }     
 
 
 
@@ -1581,7 +1635,7 @@ padding-top: 15px;
 
 
         
-        height: 1300vh;
+        height: 1100vh;
         width: 100%;
         background: #FFFFF0 ;
         background-size: cover;
@@ -1629,7 +1683,7 @@ padding-top: 15px;
 font-family: 'Source Serif Pro', serif ;
 color: #330066;
 font-size: 20px;
-
+text-align: justify;
 }
 
 
@@ -1642,13 +1696,13 @@ font-size: 20px;
 
         
         height: 700vh;
-        width: 130%;
+        width: 100%;
         background: #FFFFF0 ;
         background-size: cover;
         align-items: center;
 
    }     
-
+.hero_content_anni20
 
 .descrizione {width: 70%;
               text-align: justify;
@@ -1667,7 +1721,56 @@ font-size: 25px;
 
 .hero_cont_anni20 h2 {
 font-family:'Fira Sans', sans-serif;
- color: #330066;
- clear: left;
+ color: #330066;}
+ 
 
 }
+
+
+
+@media screen and (max-height: 427px){
+
+.hero_anni20{
+
+
+      
+        height: 1400vh;
+        width: 100%;
+        background: #FFFFF0 ;
+        background-size: cover;
+        align-items: center;}
+
+   }     
+
+
+@media screen and (max-height: 395px){
+
+.hero_anni20{
+
+
+      
+        height: 1700vh;
+        width: 100%;
+        background: #FFFFF0 ;
+        background-size: cover;
+        align-items: center;}
+
+   }     
+
+
+
+
+
+@media screen and (max-height: 346px){
+
+.hero_anni20{
+
+
+      
+        height: 1850vh;
+        width: 100%;
+        background: #FFFFF0 ;
+        background-size: cover;
+        align-items: center;}
+
+   }     
