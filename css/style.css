@@ -1635,7 +1635,7 @@ font-family:'Fira Sans', sans-serif;
 
 
         
-        height: 1200vh;
+        height: 1200vh !important;
         width: 100%;
         background: #FFFFF0 ;
         background-size: cover;
@@ -1695,7 +1695,7 @@ text-align: justify;
 
 
         
-        height: 700vh;
+        height: 800vh;
         width: 100%;
         background: #FFFFF0 ;
         background-size: cover;
